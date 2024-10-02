@@ -117,7 +117,7 @@ Now you can connect to the benchmark app:
    kubectl apply -f os-manila/pvc.yaml
    kubectl apply -f os-manila/bench-os-manila.yaml
    ```
-6. Port forward benchmark application to localhost:3000
+3. Port forward benchmark application to localhost:3000
    ```
    kubectl port-forward services/bench-os-manila 3000:3000
    ```
